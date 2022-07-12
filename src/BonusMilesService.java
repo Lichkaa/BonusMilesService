@@ -4,7 +4,7 @@ public class BonusMilesService {
         int readout = 20;
         if (cost < 20) {
                 miles = 0;
- } else {
+        } else {
             miles = cost / readout;
         }
         return miles;
